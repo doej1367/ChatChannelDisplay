@@ -1,0 +1,16 @@
+[
+{
+  "modid": "chatchanneldisplay",
+  "name": "Chat Channel Display Mod",
+  "description": "Displays what Hypixel chat channel you are currently in",
+  "version": "2.1",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["P0ke"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
