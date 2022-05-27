@@ -11,10 +11,9 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ChatChannelMessageHandler {
 	private static final String CHAT_MODE_SWITCH_MESSAGE = "You are now in the (\\w+) channel";
-	private static final String ALL_CHAT_MESSAGE = "You are not in a (\\w+) and have been moved to the ALL channel!";
+	private static final String ALL_CHAT_MESSAGE = "You are not in a (\\w+) and were moved to the ALL channel.";
 	private static final String CHAT_EXPIRED_MESSAGE = "The conversation you were in expired and you have been moved back to the ALL channel.";
 	private static final String PM_OPEN_MESSAGE = "Opened a chat conversation with .*?(\\w+) for the next 5 minutes. Use /chat a to leave";
-	private static final String PM_CLOSE_MESSAGE = "The conversation you were in expired and you have been moved back to the ALL channel.";
 	private static final String NO_GUILD_MESSAGE = "You must be in a guild to join the guild channel!";
 
 	@SubscribeEvent(receiveCanceled = true)
